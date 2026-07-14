@@ -110,7 +110,7 @@ a {
     display: flex;
     align-items: center;
     overflow: hidden;
-    background-image: url('assets/BK.png');
+    background-image: url('assets/BK.webp');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -466,7 +466,7 @@ a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding-bottom: 2px;
     letter-spacing: 0.5px;
-    transition: color 0.3s ease, border-color 0.3s ease;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
 }
 
 .btn-card-cta:hover {
@@ -639,8 +639,8 @@ a {
     }
 
     .hero {
-        background-image: url('assets/BK_mobile.png');
-        background-position: center 85%;
+        background-image: url('assets/BK_mobile.webp');
+        background-position: center 20%;
         background-size: cover;
         min-height: 80vh;
         align-items: flex-end;
@@ -714,7 +714,7 @@ a {
 /* About Section Styles */
 .about {
     background-color: #0c0f16;
-    background-image: linear-gradient(90deg, #0c0f16 0%, rgba(12, 15, 22, 0.9) 35%, rgba(12, 15, 22, 0.4) 65%, transparent 100%), url('assets/fundosecao3.png');
+    background-image: linear-gradient(90deg, #0c0f16 0%, rgba(12, 15, 22, 0.9) 35%, rgba(12, 15, 22, 0.4) 65%, transparent 100%), url('assets/fundosecao3.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
