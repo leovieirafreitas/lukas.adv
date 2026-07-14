@@ -61,10 +61,12 @@ a {
 }
 
 .logo-img {
-    height: 120px;
+    height: 60px;
     width: auto;
     object-fit: contain;
     filter: brightness(0) invert(1);
+    transform: scale(1.8);
+    transform-origin: left center;
 }
 
 .nav {
@@ -150,11 +152,13 @@ a {
 }
 
 .hero-logo-img {
-    height: 200px;
+    height: 120px;
     width: auto;
     max-width: 90%;
     object-fit: contain;
     filter: brightness(0) invert(1);
+    transform: scale(1.8);
+    transform-origin: left center;
 }
 
 .hero h1 {
